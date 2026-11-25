@@ -1,0 +1,23 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcodeproj/
+.swiftpm/
+.build/
+
+# Secretos (nunca en git)
+Config/Secrets.xcconfig
+
+# Datos personales y de la ruta (nunca en git)
+*.fit
+route.json
+Assets/Generated/
+
+# Python
+__pycache__/
+.venv/
+
+# macOS
+.DS_Store
